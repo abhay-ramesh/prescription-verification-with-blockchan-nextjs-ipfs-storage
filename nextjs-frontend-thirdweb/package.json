@@ -1,0 +1,31 @@
+{
+  "name": "next-javascript-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.3.1",
+    "@thirdweb-dev/react": "^3",
+    "@thirdweb-dev/sdk": "^3.0.2",
+    "ethers": "^5.7.1",
+    "fs": "^0.0.1-security",
+    "ipfs-core": "^0.16.0",
+    "ipfs-http-client": "^58.0.0",
+    "next": "^12.3.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.11",
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0",
+    "postcss": "^8.4.16",
+    "prisma": "^4.3.1",
+    "tailwindcss": "^3.1.8"
+  }
+}
